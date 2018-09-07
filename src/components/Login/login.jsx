@@ -55,14 +55,14 @@ function SignIn(props) {
           <Avatar className={classes.avatar}>
             <LockIcon />
           </Avatar>
-          <Typography variant="headline">Sign in</Typography>
+          <Typography variant="headline">Login</Typography>
           <form className={classes.form}>
             <FormControl margin="normal" required fullWidth>
-              <InputLabel htmlFor="email">Email Address</InputLabel>
+              <InputLabel htmlFor="email">E-mail</InputLabel>
               <Input id="email" name="email" autoComplete="email" autoFocus />
             </FormControl>
             <FormControl margin="normal" required fullWidth>
-              <InputLabel htmlFor="password">Password</InputLabel>
+              <InputLabel htmlFor="password">Senha</InputLabel>
               <Input
                 name="password"
                 type="password"
@@ -77,7 +77,7 @@ function SignIn(props) {
               color="primary"
               className={classes.submit}
             >
-              Sign in
+              Entrar
             </Button>
           </form>
         </Paper>
